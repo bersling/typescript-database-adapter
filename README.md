@@ -1,1 +1,1 @@
-Authentication module for written in typescript, built on bcrypt and passportjs.
+DB Adapter to easily switch between Mongo and Mysql implementation
