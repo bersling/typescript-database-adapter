@@ -1,2 +1,2 @@
-import * as tsmysql from 'tsmysql';
+import * as tsmysql from '@tsmean/mysql';
 export declare function dbadapter(databaseType: 'mongo' | 'mysql'): typeof tsmysql;

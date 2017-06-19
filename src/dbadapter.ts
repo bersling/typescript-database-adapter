@@ -1,5 +1,5 @@
-import * as tsmongo from 'tsmongo';
-import * as tsmysql from 'tsmysql';
+import * as tsmongo from '@tsmean/mongo';
+import * as tsmysql from '@tsmean/mysql';
 
 export function dbadapter(databaseType: 'mongo' | 'mysql') {
   switch (databaseType) {

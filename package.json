@@ -17,15 +17,15 @@
   "author": "bersling@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "@tsmean/mongo": "^1.0.1",
+    "@tsmean/mysql": "^1.0.4",
     "bcrypt-node": "^0.1.0",
     "bcrypt-nodejs": "^0.0.3",
     "chai": "^4.0.2",
     "express": "^4.15.3",
     "mocha": "^3.4.2",
     "passport": "^0.3.2",
-    "passport-local": "^1.0.0",
-    "tsmongo": "^1.0.0",
-    "tsmysql": "^1.0.6"
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "@types/bcrypt-nodejs": "^0.0.30",

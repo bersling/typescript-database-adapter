@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const tsmongo = require("tsmongo");
-const tsmysql = require("tsmysql");
+const tsmongo = require("@tsmean/mongo");
+const tsmysql = require("@tsmean/mysql");
 function dbadapter(databaseType) {
     switch (databaseType) {
         case 'mongo':
