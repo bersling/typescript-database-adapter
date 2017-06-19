@@ -1,6 +1,6 @@
 {
   "name": "tsdbadapter",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "spec": "mocha --reporter spec --compilers ts:ts-node/register --grep ${TEST} '**/*.test.ts'",
     "lint": "tslint src/**/*.ts"
   },
-  "description": "Authentication module for written in typescript, built on bcrypt and passportjs.",
-  "repository": "https://github.com/bersling/typescript-auth-module.git",
+  "description": "DB Adapter to easily switch between Mongo and Mysql implementation.",
+  "repository": "https://github.com/bersling/typescript-database-adapter",
   "author": "bersling@gmail.com",
   "license": "MIT",
   "dependencies": {
