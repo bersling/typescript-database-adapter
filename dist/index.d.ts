@@ -1,0 +1,1 @@
+export { dbadapter } from './dbadapter';
